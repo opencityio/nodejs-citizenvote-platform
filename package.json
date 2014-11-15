@@ -25,5 +25,8 @@
   "contributors": [
     "barrington.haynes@hbitm.com"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  }
 }

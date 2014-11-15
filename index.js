@@ -9,9 +9,11 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(req, res) {
 
-  res.json({"id":1,"name":"If we had to implment cuts, would you prefer to cut either refuse collection or street lighting","options":{"1":"Refuse Collection","2":"Street Lighting"}});
+  res.json({"id":1,"name":"If we had to implment cuts, would you prefer to cut either refuse collection or street lighting","options":{"1":"Refuse Collection","2":"Street Lighting"},"results",{"1":42,"2":23}});
 
 })
+
+
 
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
