@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-citizenvote-platform",
+  "version": "0.1.0",
+  "description": "nodejs app for ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.0.0",
+    "pg": "^3.6.3"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opencity/nodejs-citizenvote-platform"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Alex Shaw",
+  "contributors": [
+    "barrington.haynes@hbitm.com"
+  ],
+  "license": "MIT"
+}
