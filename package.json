@@ -4,12 +4,13 @@
   "description": "nodejs app for ",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "mocha"
   },
   "dependencies": {
     "express": "^4.0.0",
-    "pg": "^3.6.3",
-    "mocha":"2.0.x"
+    "mocha": "2.0.x",
+    "newrelic": "^1.13.3",
+    "pg": "^3.6.3"
   },
   "engines": {
     "node": "0.10.x"
@@ -26,8 +27,5 @@
   "contributors": [
     "barrington.haynes@hbitm.com"
   ],
-  "license": "MIT",
-  "scripts": {
-    "test": "mocha"
-  }
+  "license": "MIT"
 }
